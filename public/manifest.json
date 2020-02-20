@@ -1,0 +1,8 @@
+{
+  "short_name": "TodoList",
+  "name": "Todo List App",
+  "icons": [
+  ],
+  "start_url": "/",
+  "display": "standalone",
+}
