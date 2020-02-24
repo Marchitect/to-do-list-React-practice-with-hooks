@@ -7,7 +7,7 @@ export function AppContainer() {
   // state hook returns the current state and the function which updates the state
   const [todos, setTodos] = useState([
     { text: "Learn React state hook", completed: false },
-    { text: "Meet friend for lunch", completed: false },
+    { text: "Meet friends for lunch", completed: false },
     { text: "Learn React effect hook", completed: false },
     { text: "Buy groceries", completed: false }
   ])

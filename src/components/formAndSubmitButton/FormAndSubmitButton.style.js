@@ -8,6 +8,8 @@ export const OneRow = styled.div`
 `
 export const Input = styled.input`
 	font-size: 1em;
+  border: 3px solid #000;
+  border-right: 0px;
 `
 
 export const Button = styled.button`

@@ -8,6 +8,8 @@ export const Item = styled.div`
 	margin: 1em;
 	padding: 0.25em 1em;
 	border: 1px solid #000;
+	border-radius: 5px;
+	text-align: center;
 	background: #fff;
 	transition: 200ms all ease-in;
 	:hover {
@@ -33,7 +35,14 @@ export const DeleteButton = styled.button`
 
 export const ItemContainer = styled.div`
 	padding: 5px;
-	background: #ccc;
+	background: #9FCDE7;
 	margin: 5px auto;
 	border-radius: 5px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+	grid-gap: 5x;
+  @media (max-width: 375px) {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
 `

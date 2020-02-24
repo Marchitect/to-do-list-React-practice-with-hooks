@@ -33,6 +33,7 @@
     "start:dev": "webpack-dev-server",
     "build": "webpack --mode production",
     "test": "jest --config jest.config.js",
+    "test:update": "jest --updateSnapshot",
     "eject": "react-scripts eject"
   },
   "browserslist": {

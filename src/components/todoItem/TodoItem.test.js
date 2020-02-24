@@ -17,7 +17,6 @@ it("TodoItem renders correctly when it is not completed", () => {
         todo={todo}
         makeTodoComplete={makeTodoComplete}
       >
-        test
       </TodoItem>
     )
   expect(todoItem).toMatchSnapshot()
@@ -34,7 +33,6 @@ it("TodoItem renders correctly when it is completed", () => {
         todo={todo}
         makeTodoComplete={makeTodoComplete}
       >
-        test
       </TodoItem>
     )
   expect(todoItem).toMatchSnapshot()
@@ -52,12 +50,12 @@ it("When the Complete button is clicked, the click event function is called once
     >
     </TodoItem>
   )
-  axiosMock.get.mockResolvedValueOnce({
-    data: [
-      { text: "Learn React state hook", completed: false },
-      { text: "Meet friend for lunch", completed: false },
-    ]
-  })
+  // axiosMock.get.mockResolvedValueOnce({
+  //   data: [
+  //     { text: "Learn React state hook", completed: false },
+  //     { text: "Meet friends for lunch", completed: false },
+  //   ]
+  // })
   expect(getByText("test")).toBeTruthy()
   fireEvent.click(getByText("Complete"))
   expect(axiosMock.get).toHaveBeenCalledTimes(1)
