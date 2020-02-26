@@ -3,7 +3,7 @@ import React from "react"
 import { FormAndSubmitButton } from "./FormAndSubmitButton.component"
 import axiosMock from "axios"
 import Adapter from "enzyme-adapter-react-16"
-import { configure, mount, shallow } from "enzyme"
+import { configure, shallow } from "enzyme"
 import { render, fireEvent } from "@testing-library/react"
 
 jest.mock("axios")

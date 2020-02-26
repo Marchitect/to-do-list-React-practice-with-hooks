@@ -30,7 +30,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "webpack-dev-server",
-    "start:dev": "webpack-dev-server",
     "build": "webpack --mode production",
     "test": "jest --config package.json",
     "test:update": "jest --updateSnapshot",
