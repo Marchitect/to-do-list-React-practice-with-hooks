@@ -1,5 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   // Where to start bundling
@@ -52,11 +53,11 @@ module.exports = {
       template: './public/index.html',
       filename: './index.html',
       favicon: './public/favicon.ico',
-    })
+    }),
+    new CopyWebpackPlugin([
+      // configurations here, for example, copy all image resources to the dist folder
+      // {from: 'src/images', to: 'images'}
+    ])
   ],
-  // Adjust module resolution algorithm
-  resolve: {
-    alias: {  },
-  },
   mode: 'development',
 }

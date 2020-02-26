@@ -6,7 +6,7 @@ import { fireEvent, render, getByText } from "@testing-library/react"
 
 jest.mock('axios')
 
-it("TodoItem renders correctly when it is not completed", () => {
+test("TodoItem renders correctly when it is not completed", () => {
   let index = 1
   let todo = { text: "test", completed: false }
   let makeTodoComplete = () => {}
@@ -22,7 +22,7 @@ it("TodoItem renders correctly when it is not completed", () => {
   expect(todoItem).toMatchSnapshot()
 })
 
-it("TodoItem renders correctly when it is completed", () => {
+test("TodoItem renders correctly when it is completed", () => {
   let index = 1
   let todo = { text: "test", completed: true }
   let makeTodoComplete = () => {}
@@ -38,7 +38,7 @@ it("TodoItem renders correctly when it is completed", () => {
   expect(todoItem).toMatchSnapshot()
 })
 
-it("When the Complete button is clicked, the click event function is called once", () => {
+test("When the Complete button is clicked, the click event function is called once", () => {
   let index = 1
   let todo = { text: "test", completed: false }
   const { getByText } = render(
@@ -50,12 +50,7 @@ it("When the Complete button is clicked, the click event function is called once
     >
     </TodoItem>
   )
-  // axiosMock.get.mockResolvedValueOnce({
-  //   data: [
-  //     { text: "Learn React state hook", completed: false },
-  //     { text: "Meet friends for lunch", completed: false },
-  //   ]
-  // })
+
   expect(getByText("test")).toBeTruthy()
   fireEvent.click(getByText("Complete"))
   expect(axiosMock.get).toHaveBeenCalledTimes(1)

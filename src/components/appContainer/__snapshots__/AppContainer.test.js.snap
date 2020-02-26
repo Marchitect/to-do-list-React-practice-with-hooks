@@ -6,29 +6,32 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-AxmLO dngniA"
+        class="sc-AxmLO exQSXV"
       >
         <div>
           <form
-            class="sc-AxhCb hLMWUN"
+            class="sc-AxhCb gqRNTI"
           >
             <label
-              class="sc-AxhUy kbqZXj"
+              class="sc-AxhUy fPIdVO"
               for="todo-item-input"
             >
               Enter your to-do item here:
             </label>
             <div
-              class="sc-AxjAm iaLYws"
+              class="sc-AxjAm ejbBdx"
             >
               <input
-                class="sc-AxirZ cvZsoc"
+                class="sc-AxirZ TIGOt"
+                id="todo_input"
                 name="todo-item-input"
+                placeholder="to-do"
                 type="text"
                 value=""
               />
               <button
-                class="sc-AxiKw glrngo"
+                class="sc-AxiKw iWkUVY"
+                id="submit"
               >
                 Submit
               </button>
@@ -36,57 +39,57 @@ Object {
           </form>
         </div>
         <div
-          class="sc-Axmtr ebnLPY"
+          class="sc-Axmtr gbpYMa"
         >
           <div
-            class="sc-AxgMl zcOjk"
+            class="sc-AxgMl edRssr"
           >
             Learn React state hook
           </div>
           <button
-            class="sc-AxheI eqXGvy"
+            class="sc-AxheI kluNOV"
           >
             Complete
           </button>
         </div>
         <div
-          class="sc-Axmtr ebnLPY"
+          class="sc-Axmtr gbpYMa"
         >
           <div
-            class="sc-AxgMl zcOjk"
+            class="sc-AxgMl edRssr"
           >
             Meet friends for lunch
           </div>
           <button
-            class="sc-AxheI eqXGvy"
+            class="sc-AxheI kluNOV"
           >
             Complete
           </button>
         </div>
         <div
-          class="sc-Axmtr ebnLPY"
+          class="sc-Axmtr gbpYMa"
         >
           <div
-            class="sc-AxgMl zcOjk"
+            class="sc-AxgMl edRssr"
           >
             Learn React effect hook
           </div>
           <button
-            class="sc-AxheI eqXGvy"
+            class="sc-AxheI kluNOV"
           >
             Complete
           </button>
         </div>
         <div
-          class="sc-Axmtr ebnLPY"
+          class="sc-Axmtr gbpYMa"
         >
           <div
-            class="sc-AxgMl zcOjk"
+            class="sc-AxgMl edRssr"
           >
             Buy groceries
           </div>
           <button
-            class="sc-AxheI eqXGvy"
+            class="sc-AxheI kluNOV"
           >
             Complete
           </button>
@@ -96,29 +99,32 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AxmLO dngniA"
+      class="sc-AxmLO exQSXV"
     >
       <div>
         <form
-          class="sc-AxhCb hLMWUN"
+          class="sc-AxhCb gqRNTI"
         >
           <label
-            class="sc-AxhUy kbqZXj"
+            class="sc-AxhUy fPIdVO"
             for="todo-item-input"
           >
             Enter your to-do item here:
           </label>
           <div
-            class="sc-AxjAm iaLYws"
+            class="sc-AxjAm ejbBdx"
           >
             <input
-              class="sc-AxirZ cvZsoc"
+              class="sc-AxirZ TIGOt"
+              id="todo_input"
               name="todo-item-input"
+              placeholder="to-do"
               type="text"
               value=""
             />
             <button
-              class="sc-AxiKw glrngo"
+              class="sc-AxiKw iWkUVY"
+              id="submit"
             >
               Submit
             </button>
@@ -126,57 +132,57 @@ Object {
         </form>
       </div>
       <div
-        class="sc-Axmtr ebnLPY"
+        class="sc-Axmtr gbpYMa"
       >
         <div
-          class="sc-AxgMl zcOjk"
+          class="sc-AxgMl edRssr"
         >
           Learn React state hook
         </div>
         <button
-          class="sc-AxheI eqXGvy"
+          class="sc-AxheI kluNOV"
         >
           Complete
         </button>
       </div>
       <div
-        class="sc-Axmtr ebnLPY"
+        class="sc-Axmtr gbpYMa"
       >
         <div
-          class="sc-AxgMl zcOjk"
+          class="sc-AxgMl edRssr"
         >
           Meet friends for lunch
         </div>
         <button
-          class="sc-AxheI eqXGvy"
+          class="sc-AxheI kluNOV"
         >
           Complete
         </button>
       </div>
       <div
-        class="sc-Axmtr ebnLPY"
+        class="sc-Axmtr gbpYMa"
       >
         <div
-          class="sc-AxgMl zcOjk"
+          class="sc-AxgMl edRssr"
         >
           Learn React effect hook
         </div>
         <button
-          class="sc-AxheI eqXGvy"
+          class="sc-AxheI kluNOV"
         >
           Complete
         </button>
       </div>
       <div
-        class="sc-Axmtr ebnLPY"
+        class="sc-Axmtr gbpYMa"
       >
         <div
-          class="sc-AxgMl zcOjk"
+          class="sc-AxgMl edRssr"
         >
           Buy groceries
         </div>
         <button
-          class="sc-AxheI eqXGvy"
+          class="sc-AxheI kluNOV"
         >
           Complete
         </button>

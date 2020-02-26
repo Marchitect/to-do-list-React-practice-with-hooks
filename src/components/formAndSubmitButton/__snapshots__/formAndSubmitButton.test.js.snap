@@ -7,25 +7,28 @@ Object {
     <div>
       <div>
         <form
-          class="sc-AxhCb hLMWUN"
+          class="sc-AxhCb gqRNTI"
         >
           <label
-            class="sc-AxhUy kbqZXj"
+            class="sc-AxhUy fPIdVO"
             for="todo-item-input"
           >
             Enter your to-do item here:
           </label>
           <div
-            class="sc-AxjAm iaLYws"
+            class="sc-AxjAm ejbBdx"
           >
             <input
-              class="sc-AxirZ cvZsoc"
+              class="sc-AxirZ TIGOt"
+              id="todo_input"
               name="todo-item-input"
+              placeholder="to-do"
               type="text"
               value=""
             />
             <button
-              class="sc-AxiKw glrngo"
+              class="sc-AxiKw iWkUVY"
+              id="submit"
             >
               Submit
             </button>
@@ -37,25 +40,28 @@ Object {
   "container": <div>
     <div>
       <form
-        class="sc-AxhCb hLMWUN"
+        class="sc-AxhCb gqRNTI"
       >
         <label
-          class="sc-AxhUy kbqZXj"
+          class="sc-AxhUy fPIdVO"
           for="todo-item-input"
         >
           Enter your to-do item here:
         </label>
         <div
-          class="sc-AxjAm iaLYws"
+          class="sc-AxjAm ejbBdx"
         >
           <input
-            class="sc-AxirZ cvZsoc"
+            class="sc-AxirZ TIGOt"
+            id="todo_input"
             name="todo-item-input"
+            placeholder="to-do"
             type="text"
             value=""
           />
           <button
-            class="sc-AxiKw glrngo"
+            class="sc-AxiKw iWkUVY"
+            id="submit"
           >
             Submit
           </button>
