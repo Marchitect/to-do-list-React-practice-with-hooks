@@ -30,8 +30,11 @@ export const ItemContainer = styled.div`
     grid-template-columns: 1fr;
     width: 100%;
   }
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
   @media only screen and (max-width: 768px) {
-    width: 90%;
+    width: 80%;
   }
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
     width: 70%;

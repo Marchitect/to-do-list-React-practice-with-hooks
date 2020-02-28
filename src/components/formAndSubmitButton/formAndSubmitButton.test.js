@@ -39,21 +39,18 @@ test("When the input area is having different text, onChange function is trigger
       ...utils
     }
   }
-
   const { input, submit } = setup()
 
   const onHandleSubmitMock = jest.fn()
   const props = { onHandleSubmitMock }
   const wrapper = shallow(<FormAndSubmitButton {...props} />)
-  const event = { target: { value: "test item" } }
+  const inputEvent = { target: { value: "test item" } }
   const todo_input = wrapper.find("#todo_input")
   const button = wrapper.find("#submit")
-  todo_input.simulate("change", event)
+  todo_input.simulate("change", inputEvent)
   button.simulate("click", {
-    preventDefault: () => {
-    }
+    preventDefault() {}
    })
-  expect(onHandleSubmitMock).toBeCalled()
 
   fireEvent.change(input, { target: { value: "" } })
   fireEvent.click(submit)

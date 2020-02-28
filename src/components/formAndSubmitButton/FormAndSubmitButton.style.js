@@ -39,4 +39,7 @@ export const Label = styled.label`
   font-weight: bold;
   font-size: 1.5em;
   width: 100%;
+  @media only screen and (max-width: 310px) {
+    font-size: 1.1em;
+  }
 `;

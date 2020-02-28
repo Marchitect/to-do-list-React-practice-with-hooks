@@ -13,7 +13,7 @@ Object {
             class="sc-AxhCb gqRNTI"
           >
             <label
-              class="sc-AxhUy fPIdVO"
+              class="sc-AxhUy kkGZqn"
               for="todo-item-input"
             >
               Enter your to-do item here:
@@ -39,7 +39,7 @@ Object {
           </form>
         </div>
         <div
-          class="sc-Axmtr gbpYMa"
+          class="sc-Axmtr gKEVEd"
         >
           <div
             class="sc-AxgMl edRssr"
@@ -53,7 +53,7 @@ Object {
           </button>
         </div>
         <div
-          class="sc-Axmtr gbpYMa"
+          class="sc-Axmtr gKEVEd"
         >
           <div
             class="sc-AxgMl edRssr"
@@ -67,7 +67,7 @@ Object {
           </button>
         </div>
         <div
-          class="sc-Axmtr gbpYMa"
+          class="sc-Axmtr gKEVEd"
         >
           <div
             class="sc-AxgMl edRssr"
@@ -81,7 +81,7 @@ Object {
           </button>
         </div>
         <div
-          class="sc-Axmtr gbpYMa"
+          class="sc-Axmtr gKEVEd"
         >
           <div
             class="sc-AxgMl edRssr"
@@ -106,7 +106,7 @@ Object {
           class="sc-AxhCb gqRNTI"
         >
           <label
-            class="sc-AxhUy fPIdVO"
+            class="sc-AxhUy kkGZqn"
             for="todo-item-input"
           >
             Enter your to-do item here:
@@ -132,7 +132,7 @@ Object {
         </form>
       </div>
       <div
-        class="sc-Axmtr gbpYMa"
+        class="sc-Axmtr gKEVEd"
       >
         <div
           class="sc-AxgMl edRssr"
@@ -146,7 +146,7 @@ Object {
         </button>
       </div>
       <div
-        class="sc-Axmtr gbpYMa"
+        class="sc-Axmtr gKEVEd"
       >
         <div
           class="sc-AxgMl edRssr"
@@ -160,7 +160,7 @@ Object {
         </button>
       </div>
       <div
-        class="sc-Axmtr gbpYMa"
+        class="sc-Axmtr gKEVEd"
       >
         <div
           class="sc-AxgMl edRssr"
@@ -174,7 +174,7 @@ Object {
         </button>
       </div>
       <div
-        class="sc-Axmtr gbpYMa"
+        class="sc-Axmtr gKEVEd"
       >
         <div
           class="sc-AxgMl edRssr"
