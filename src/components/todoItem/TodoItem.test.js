@@ -50,7 +50,6 @@ test("When the Complete button is clicked, the click event function is called on
     >
     </TodoItem>
   )
-
   expect(getByText("test")).toBeTruthy()
   fireEvent.click(getByText("Complete"))
   expect(axiosMock.get).toHaveBeenCalledTimes(1)

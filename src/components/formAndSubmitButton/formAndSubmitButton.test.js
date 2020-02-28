@@ -17,11 +17,11 @@ test("FormAndSubmitButton renders correctly", () => {
 
 test("When the Submit Button is clicked, onClick function is triggered", () => {
   const { getByText } = render(
-    <FormAndSubmitButton addTodo={axiosMock.get()} />
+    <FormAndSubmitButton addTodo={axiosMock.get} />
   )
   expect(getByText("Submit")).toBeTruthy()
   fireEvent.click(getByText("Submit"))
-  expect(axiosMock.get).toHaveBeenCalledTimes(2)
+  expect(axiosMock.get).toHaveBeenCalledTimes(1)
 })
 
 configure({ adapter: new Adapter() })
@@ -30,7 +30,7 @@ window.alert = jest.fn()
 
 test("When the input area is having different text, onChange function is triggered", () => {
   const setup = () => {
-    const utils = render(<FormAndSubmitButton addTodo={axiosMock.get()} />)
+    const utils = render(<FormAndSubmitButton addTodo={axiosMock.get} />)
     const input = utils.getByPlaceholderText("to-do")
     const submit = utils.getByText("Submit")
     return {
@@ -50,7 +50,7 @@ test("When the input area is having different text, onChange function is trigger
   todo_input.simulate("change", inputEvent)
   button.simulate("click", {
     preventDefault() {}
-   })
+  })
 
   fireEvent.change(input, { target: { value: "" } })
   fireEvent.click(submit)
